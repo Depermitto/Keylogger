@@ -29,7 +29,7 @@ public class JavaKeyboardOperator {
         var now = LocalDateTime.now();
         var formatter = DateTimeFormatter.ofPattern("uuuu-MMM-d-H-m-s");
 
-        return System.getProperty("user.home") + "\\Documents\\" + now.format(formatter) + ".log";
+        return System.getProperty("user.home") + "\\Documents/" + now.format(formatter) + ".log";
     }
     
     public static void main(String[] args) throws IOException {
